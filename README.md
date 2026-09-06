@@ -14,8 +14,11 @@
 
 ```
 ChainBank/
-├── journal/    ← 每次循環的紀錄,程式碼片段跟筆記可以先混放
-└── README.md
+├── AGENTS.md
+├── README.md
+└── journal/
+    ├── _template.md   ← 複製這份改檔名成 YYYY-MM-DD.md,就是新的一篇
+    └── YYYY-MM-DD.md  ← 每次循環的紀錄
 ```
 
 之後真的寫出合約、腳本,再依內容自然長出資料夾。
