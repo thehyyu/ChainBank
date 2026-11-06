@@ -5,7 +5,7 @@
 方法很簡單,每次循環走同一條路:
 
 ```
-讀一段 → 一句話講完主張 → 寫一小段程式/合約去驗證它 → 記一篇筆記 → commit
+讀一段 → 一句話講完主張 → 寫一小段程式/合約去驗證它 → 記一篇日誌 → commit 程式碼
 ```
 
 不預先規劃模組或路線圖。結構會隨著實際讀、寫的節奏自己長出來,等某個主題重複出現、值得沉澱,再回頭整理進 [Obsidian vault](obsidian://vault/thehyyu) 對應的專案筆記。
@@ -16,9 +16,8 @@
 ChainBank/
 ├── AGENTS.md
 ├── README.md
-└── journal/
-    ├── _template.md   ← 複製這份改檔名成 YYYY-MM-DD.md,就是新的一篇
-    └── YYYY-MM-DD.md  ← 每次循環的紀錄
 ```
+
+這個 repo 只放程式碼。學習日誌與整理都在 Obsidian 的 ChainBank 專案筆記裡。
 
 之後真的寫出合約、腳本,再依內容自然長出資料夾。
